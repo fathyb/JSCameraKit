@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.fathyb.JSCameraKit"
+    version="1.0.2">
+    <platform name="ios">
+        <framework src="JSCameraKit.framework" custom="true"/>
+
+        <source-file src="JSCameraKit/CDVJSCameraKit.m"/>
+        <header-file src="JSCameraKit/CDVJSCameraKit.h"/>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="JSCameraKit">
+                <param name="ios-package" value="CDVJSCameraKit"/>
+                <param name="onload" value="true"/>
+            </feature>
+        </config-file>
+    </platform>
+</plugin>

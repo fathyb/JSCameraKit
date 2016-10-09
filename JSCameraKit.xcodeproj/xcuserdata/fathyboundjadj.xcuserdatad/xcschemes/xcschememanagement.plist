@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JSCameraKit Server.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>JSCameraKit macOS server.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>JSCameraKit-macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>JSCameraKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0130196C1DAD81C400E2C804</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>013019811DAD8CFB00E2C804</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0130198C1DAD8D2000E2C804</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>013019971DAD8D5700E2C804</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>013019A61DAD8EA600E2C804</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>019298AE1DAAA1040039CEC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>019298B71DAAA1040039CEC5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01B578811DAD5D3F004AB5E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>01FA99DD1DAFF2E40027AE23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

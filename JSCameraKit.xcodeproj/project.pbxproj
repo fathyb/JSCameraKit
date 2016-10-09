@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0164A36A1DB1412C00DFB91D /* alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3421DB1412C00DFB91D /* alloc.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A36B1DB1412C00DFB91D /* alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3421DB1412C00DFB91D /* alloc.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A36C1DB1412C00DFB91D /* base64-decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3431DB1412C00DFB91D /* base64-decode.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A36D1DB1412C00DFB91D /* base64-decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3431DB1412C00DFB91D /* base64-decode.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A36E1DB1412C00DFB91D /* client-handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3441DB1412C00DFB91D /* client-handshake.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A36F1DB1412C00DFB91D /* client-handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3441DB1412C00DFB91D /* client-handshake.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3701DB1412C00DFB91D /* client-parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3451DB1412C00DFB91D /* client-parser.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3711DB1412C00DFB91D /* client-parser.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3451DB1412C00DFB91D /* client-parser.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3721DB1412C00DFB91D /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3461DB1412C00DFB91D /* client.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3731DB1412C00DFB91D /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3461DB1412C00DFB91D /* client.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3741DB1412C00DFB91D /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3471DB1412C00DFB91D /* context.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3751DB1412C00DFB91D /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3471DB1412C00DFB91D /* context.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3781DB1412C00DFB91D /* extension-permessage-deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3491DB1412C00DFB91D /* extension-permessage-deflate.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3791DB1412C00DFB91D /* extension-permessage-deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3491DB1412C00DFB91D /* extension-permessage-deflate.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A37A1DB1412C00DFB91D /* extension-permessage-deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A34A1DB1412C00DFB91D /* extension-permessage-deflate.h */; };
+		0164A37B1DB1412C00DFB91D /* extension-permessage-deflate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A34A1DB1412C00DFB91D /* extension-permessage-deflate.h */; };
+		0164A37C1DB1412C00DFB91D /* extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34B1DB1412C00DFB91D /* extension.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A37D1DB1412C00DFB91D /* extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34B1DB1412C00DFB91D /* extension.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A37E1DB1412C00DFB91D /* getifaddrs.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34C1DB1412C00DFB91D /* getifaddrs.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A37F1DB1412C00DFB91D /* getifaddrs.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34C1DB1412C00DFB91D /* getifaddrs.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3801DB1412C00DFB91D /* getifaddrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A34D1DB1412C00DFB91D /* getifaddrs.h */; };
+		0164A3811DB1412C00DFB91D /* getifaddrs.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A34D1DB1412C00DFB91D /* getifaddrs.h */; };
+		0164A3821DB1412C00DFB91D /* handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34E1DB1412C00DFB91D /* handshake.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3831DB1412C00DFB91D /* handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34E1DB1412C00DFB91D /* handshake.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3841DB1412C00DFB91D /* header.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34F1DB1412C00DFB91D /* header.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3851DB1412C00DFB91D /* header.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A34F1DB1412C00DFB91D /* header.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3861DB1412C00DFB91D /* hpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3501DB1412C00DFB91D /* hpack.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3871DB1412C00DFB91D /* hpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3501DB1412C00DFB91D /* hpack.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3881DB1412C00DFB91D /* http2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3511DB1412C00DFB91D /* http2.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3891DB1412C00DFB91D /* http2.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3511DB1412C00DFB91D /* http2.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A38A1DB1412C00DFB91D /* huftable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3521DB1412C00DFB91D /* huftable.h */; };
+		0164A38B1DB1412C00DFB91D /* huftable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3521DB1412C00DFB91D /* huftable.h */; };
+		0164A38E1DB1412C00DFB91D /* lejp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3541DB1412C00DFB91D /* lejp.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A38F1DB1412C00DFB91D /* lejp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3541DB1412C00DFB91D /* lejp.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3901DB1412C00DFB91D /* lejp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3551DB1412C00DFB91D /* lejp.h */; };
+		0164A3911DB1412C00DFB91D /* lejp.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3551DB1412C00DFB91D /* lejp.h */; };
+		0164A3921DB1412C00DFB91D /* lextable-strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3561DB1412C00DFB91D /* lextable-strings.h */; };
+		0164A3931DB1412C00DFB91D /* lextable-strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3561DB1412C00DFB91D /* lextable-strings.h */; };
+		0164A3941DB1412C00DFB91D /* lextable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3571DB1412C00DFB91D /* lextable.h */; };
+		0164A3951DB1412C00DFB91D /* lextable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3571DB1412C00DFB91D /* lextable.h */; };
+		0164A39A1DB1412C00DFB91D /* libwebsockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35A1DB1412C00DFB91D /* libwebsockets.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A39B1DB1412C00DFB91D /* libwebsockets.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35A1DB1412C00DFB91D /* libwebsockets.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A39C1DB1412C00DFB91D /* libwebsockets.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A35B1DB1412C00DFB91D /* libwebsockets.h */; };
+		0164A39D1DB1412C00DFB91D /* libwebsockets.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A35B1DB1412C00DFB91D /* libwebsockets.h */; };
+		0164A39E1DB1412C00DFB91D /* lws-plat-unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35C1DB1412C00DFB91D /* lws-plat-unix.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A39F1DB1412C00DFB91D /* lws-plat-unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35C1DB1412C00DFB91D /* lws-plat-unix.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A01DB1412C00DFB91D /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35D1DB1412C00DFB91D /* output.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A11DB1412C00DFB91D /* output.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35D1DB1412C00DFB91D /* output.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A21DB1412C00DFB91D /* parsers.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35E1DB1412C00DFB91D /* parsers.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A31DB1412C00DFB91D /* parsers.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35E1DB1412C00DFB91D /* parsers.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A41DB1412C00DFB91D /* pollfd.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35F1DB1412C00DFB91D /* pollfd.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A51DB1412C00DFB91D /* pollfd.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A35F1DB1412C00DFB91D /* pollfd.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A61DB1412C00DFB91D /* private-libwebsockets.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3601DB1412C00DFB91D /* private-libwebsockets.h */; };
+		0164A3A71DB1412C00DFB91D /* private-libwebsockets.h in Headers */ = {isa = PBXBuildFile; fileRef = 0164A3601DB1412C00DFB91D /* private-libwebsockets.h */; };
+		0164A3A81DB1412C00DFB91D /* server-handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3611DB1412C00DFB91D /* server-handshake.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3A91DB1412C00DFB91D /* server-handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3611DB1412C00DFB91D /* server-handshake.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3AA1DB1412C00DFB91D /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3621DB1412C00DFB91D /* server.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3AC1DB1412C00DFB91D /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3631DB1412C00DFB91D /* service.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3AD1DB1412C00DFB91D /* service.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3631DB1412C00DFB91D /* service.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3AE1DB1412C00DFB91D /* sha-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3641DB1412C00DFB91D /* sha-1.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3AF1DB1412C00DFB91D /* sha-1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3641DB1412C00DFB91D /* sha-1.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		0164A3BA1DB141F400DFB91D /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 0164A3621DB1412C00DFB91D /* server.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		01670D1F1DAFEC7200BFFA76 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013019A11DAD8DBC00E2C804 /* AVFoundation.framework */; };
+		0190128C1DBD6FCE00D5E106 /* WebSocketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0190128B1DBD6FCE00D5E106 /* WebSocketController.swift */; };
+		0190128D1DBD828E00D5E106 /* WebSocketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0190128B1DBD6FCE00D5E106 /* WebSocketController.swift */; };
+		019298B91DAAA1040039CEC5 /* JSCameraKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019298AF1DAAA1040039CEC5 /* JSCameraKit.framework */; };
+		019298BE1DAAA1040039CEC5 /* JSCameraKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 019298BD1DAAA1040039CEC5 /* JSCameraKitTests.m */; };
+		0192995E1DAAA1F00039CEC5 /* AVRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192992B1DAAA1F00039CEC5 /* AVRecorder.swift */; };
+		0192998E1DAAA1F00039CEC5 /* WebSockerServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0192995B1DAAA1F00039CEC5 /* WebSockerServer.m */; };
+		0192998F1DAAA1F00039CEC5 /* WebSocketCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192995C1DAAA1F00039CEC5 /* WebSocketCamera.swift */; };
+		019299E71DAAAF540039CEC5 /* WebSockerServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0192995A1DAAA1F00039CEC5 /* WebSockerServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		019299E81DAAAFDE0039CEC5 /* JSCameraKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 019298B21DAAA1040039CEC5 /* JSCameraKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01B578861DAD5D3F004AB5E5 /* JSCameraKit-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B578841DAD5D3F004AB5E5 /* JSCameraKit-macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01B578AF1DAD5D6E004AB5E5 /* AVRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192992B1DAAA1F00039CEC5 /* AVRecorder.swift */; };
+		01B578B01DAD5D6E004AB5E5 /* WebSocketCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0192995C1DAAA1F00039CEC5 /* WebSocketCamera.swift */; };
+		01B578B11DAD5D6E004AB5E5 /* WebSockerServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0192995B1DAAA1F00039CEC5 /* WebSockerServer.m */; };
+		01B578B31DAD604B004AB5E5 /* WebSockerServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0192995A1DAAA1F00039CEC5 /* WebSockerServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C588771DBB973F0058CCF8 /* ConstraintsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C588761DBB973F0058CCF8 /* ConstraintsManager.swift */; };
+		01C588791DBBC3640058CCF8 /* getPixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C588781DBBC3640058CCF8 /* getPixelFormat.swift */; };
+		01C5887A1DBBC5340058CCF8 /* getPixelFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C588781DBBC3640058CCF8 /* getPixelFormat.swift */; };
+		01C5887B1DBBC5490058CCF8 /* ConstraintsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C588761DBB973F0058CCF8 /* ConstraintsManager.swift */; };
+		01FA99D71DAFF1550027AE23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA99D61DAFF1550027AE23 /* libz.tbd */; };
+		01FA99D91DAFF2740027AE23 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FA99D81DAFF2740027AE23 /* libz.tbd */; };
+		01FA99E11DAFF2E40027AE23 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FA99E01DAFF2E40027AE23 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		019298BA1DAAA1040039CEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019298A61DAAA1040039CEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 019298AE1DAAA1040039CEC5;
+			remoteInfo = JSCameraKit;
+		};
+		01FA99E51DAFF2F80027AE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 019298A61DAAA1040039CEC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B578811DAD5D3F004AB5E5;
+			remoteInfo = "JSCameraKit-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01FA99DC1DAFF2E40027AE23 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		010011741DAAB1ED00C9F778 /* lws_config_private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lws_config_private.h; sourceTree = "<group>"; };
+		010011751DAAB1ED00C9F778 /* lws_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lws_config.h; sourceTree = "<group>"; };
+		010A54CE1DABB5C1005802C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0115B6181DAC168900AAB682 /* CDVJSCameraKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVJSCameraKit.h; sourceTree = "<group>"; };
+		0115B6191DAC168900AAB682 /* CDVJSCameraKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVJSCameraKit.m; sourceTree = "<group>"; };
+		013019A11DAD8DBC00E2C804 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0164A3421DB1412C00DFB91D /* alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alloc.c; sourceTree = "<group>"; };
+		0164A3431DB1412C00DFB91D /* base64-decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "base64-decode.c"; sourceTree = "<group>"; };
+		0164A3441DB1412C00DFB91D /* client-handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "client-handshake.c"; sourceTree = "<group>"; };
+		0164A3451DB1412C00DFB91D /* client-parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "client-parser.c"; sourceTree = "<group>"; };
+		0164A3461DB1412C00DFB91D /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		0164A3471DB1412C00DFB91D /* context.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = context.c; sourceTree = "<group>"; };
+		0164A3491DB1412C00DFB91D /* extension-permessage-deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "extension-permessage-deflate.c"; sourceTree = "<group>"; };
+		0164A34A1DB1412C00DFB91D /* extension-permessage-deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "extension-permessage-deflate.h"; sourceTree = "<group>"; };
+		0164A34B1DB1412C00DFB91D /* extension.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = extension.c; sourceTree = "<group>"; };
+		0164A34C1DB1412C00DFB91D /* getifaddrs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getifaddrs.c; sourceTree = "<group>"; };
+		0164A34D1DB1412C00DFB91D /* getifaddrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getifaddrs.h; sourceTree = "<group>"; };
+		0164A34E1DB1412C00DFB91D /* handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handshake.c; sourceTree = "<group>"; };
+		0164A34F1DB1412C00DFB91D /* header.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = header.c; sourceTree = "<group>"; };
+		0164A3501DB1412C00DFB91D /* hpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hpack.c; sourceTree = "<group>"; };
+		0164A3511DB1412C00DFB91D /* http2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http2.c; sourceTree = "<group>"; };
+		0164A3521DB1412C00DFB91D /* huftable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huftable.h; sourceTree = "<group>"; };
+		0164A3541DB1412C00DFB91D /* lejp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lejp.c; sourceTree = "<group>"; };
+		0164A3551DB1412C00DFB91D /* lejp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lejp.h; sourceTree = "<group>"; };
+		0164A3561DB1412C00DFB91D /* lextable-strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lextable-strings.h"; sourceTree = "<group>"; };
+		0164A3571DB1412C00DFB91D /* lextable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lextable.h; sourceTree = "<group>"; };
+		0164A35A1DB1412C00DFB91D /* libwebsockets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libwebsockets.c; sourceTree = "<group>"; };
+		0164A35B1DB1412C00DFB91D /* libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libwebsockets.h; sourceTree = "<group>"; };
+		0164A35C1DB1412C00DFB91D /* lws-plat-unix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "lws-plat-unix.c"; sourceTree = "<group>"; };
+		0164A35D1DB1412C00DFB91D /* output.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = output.c; sourceTree = "<group>"; };
+		0164A35E1DB1412C00DFB91D /* parsers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parsers.c; sourceTree = "<group>"; };
+		0164A35F1DB1412C00DFB91D /* pollfd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pollfd.c; sourceTree = "<group>"; };
+		0164A3601DB1412C00DFB91D /* private-libwebsockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "private-libwebsockets.h"; sourceTree = "<group>"; };
+		0164A3611DB1412C00DFB91D /* server-handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "server-handshake.c"; sourceTree = "<group>"; };
+		0164A3621DB1412C00DFB91D /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		0164A3631DB1412C00DFB91D /* service.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = service.c; sourceTree = "<group>"; };
+		0164A3641DB1412C00DFB91D /* sha-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "sha-1.c"; sourceTree = "<group>"; };
+		0164A3661DB1412C00DFB91D /* ssl-client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "ssl-client.c"; sourceTree = "<group>"; };
+		0164A3671DB1412C00DFB91D /* ssl-http2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "ssl-http2.c"; sourceTree = "<group>"; };
+		0164A3681DB1412C00DFB91D /* ssl-server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "ssl-server.c"; sourceTree = "<group>"; };
+		0164A3691DB1412C00DFB91D /* ssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl.c; sourceTree = "<group>"; };
+		01670D201DAFECC600BFFA76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0190128B1DBD6FCE00D5E106 /* WebSocketController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketController.swift; sourceTree = "<group>"; };
+		019298AF1DAAA1040039CEC5 /* JSCameraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSCameraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		019298B21DAAA1040039CEC5 /* JSCameraKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCameraKit.h; sourceTree = "<group>"; };
+		019298B31DAAA1040039CEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019298B81DAAA1040039CEC5 /* JSCameraKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSCameraKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019298BD1DAAA1040039CEC5 /* JSCameraKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCameraKitTests.m; sourceTree = "<group>"; };
+		019298BF1DAAA1040039CEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0192992B1DAAA1F00039CEC5 /* AVRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVRecorder.swift; sourceTree = "<group>"; };
+		0192995A1DAAA1F00039CEC5 /* WebSockerServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSockerServer.h; sourceTree = "<group>"; };
+		0192995B1DAAA1F00039CEC5 /* WebSockerServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSockerServer.m; sourceTree = "<group>"; };
+		0192995C1DAAA1F00039CEC5 /* WebSocketCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocketCamera.swift; sourceTree = "<group>"; };
+		01B578821DAD5D3F004AB5E5 /* JSCameraKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSCameraKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B578841DAD5D3F004AB5E5 /* JSCameraKit-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSCameraKit-macOS.h"; sourceTree = "<group>"; };
+		01B578851DAD5D3F004AB5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C588761DBB973F0058CCF8 /* ConstraintsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsManager.swift; sourceTree = "<group>"; };
+		01C588781DBBC3640058CCF8 /* getPixelFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getPixelFormat.swift; sourceTree = "<group>"; };
+		01FA99D61DAFF1550027AE23 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
+		01FA99D81DAFF2740027AE23 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		01FA99DE1DAFF2E40027AE23 /* JSCameraKit Server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "JSCameraKit Server"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FA99E01DAFF2E40027AE23 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		26CDE26D2DCBD7A3801D0845 /* Pods-JSCameraKit-macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCameraKit-macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSCameraKit-macOS/Pods-JSCameraKit-macOS.release.xcconfig"; sourceTree = "<group>"; };
+		43E60AE6ED808B3332A122C7 /* Pods-JSCameraKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCameraKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSCameraKit/Pods-JSCameraKit.debug.xcconfig"; sourceTree = "<group>"; };
+		55ACD0640CD3F7F4B3965999 /* Pods_JSCameraKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSCameraKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721EDFB53CF0ACFFC55DD6C8 /* Pods-JSCameraKit-macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCameraKit-macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSCameraKit-macOS/Pods-JSCameraKit-macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		939EE31676459F2969E42274 /* Pods-JSCameraKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSCameraKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSCameraKit/Pods-JSCameraKit.release.xcconfig"; sourceTree = "<group>"; };
+		BA7E9FC286D7320E999902C4 /* Pods_JSCameraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSCameraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019298AB1DAAA1040039CEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FA99D91DAFF2740027AE23 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019298B51DAAA1040039CEC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019298B91DAAA1040039CEC5 /* JSCameraKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B5787E1DAD5D3F004AB5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FA99D71DAFF1550027AE23 /* libz.tbd in Frameworks */,
+				01670D1F1DAFEC7200BFFA76 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA99DB1DAFF2E40027AE23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010011B21DAAB20A00C9F778 /* libwebsockets */ = {
+			isa = PBXGroup;
+			children = (
+				0164A3421DB1412C00DFB91D /* alloc.c */,
+				0164A3431DB1412C00DFB91D /* base64-decode.c */,
+				0164A3441DB1412C00DFB91D /* client-handshake.c */,
+				0164A3451DB1412C00DFB91D /* client-parser.c */,
+				0164A3461DB1412C00DFB91D /* client.c */,
+				0164A3471DB1412C00DFB91D /* context.c */,
+				0164A3491DB1412C00DFB91D /* extension-permessage-deflate.c */,
+				0164A34A1DB1412C00DFB91D /* extension-permessage-deflate.h */,
+				0164A34B1DB1412C00DFB91D /* extension.c */,
+				0164A34C1DB1412C00DFB91D /* getifaddrs.c */,
+				0164A34D1DB1412C00DFB91D /* getifaddrs.h */,
+				0164A34E1DB1412C00DFB91D /* handshake.c */,
+				0164A34F1DB1412C00DFB91D /* header.c */,
+				0164A3501DB1412C00DFB91D /* hpack.c */,
+				0164A3511DB1412C00DFB91D /* http2.c */,
+				0164A3521DB1412C00DFB91D /* huftable.h */,
+				0164A3541DB1412C00DFB91D /* lejp.c */,
+				0164A3551DB1412C00DFB91D /* lejp.h */,
+				0164A3561DB1412C00DFB91D /* lextable-strings.h */,
+				0164A3571DB1412C00DFB91D /* lextable.h */,
+				0164A35A1DB1412C00DFB91D /* libwebsockets.c */,
+				0164A35B1DB1412C00DFB91D /* libwebsockets.h */,
+				0164A35C1DB1412C00DFB91D /* lws-plat-unix.c */,
+				0164A35D1DB1412C00DFB91D /* output.c */,
+				0164A35E1DB1412C00DFB91D /* parsers.c */,
+				0164A35F1DB1412C00DFB91D /* pollfd.c */,
+				0164A3601DB1412C00DFB91D /* private-libwebsockets.h */,
+				0164A3611DB1412C00DFB91D /* server-handshake.c */,
+				0164A3621DB1412C00DFB91D /* server.c */,
+				0164A3631DB1412C00DFB91D /* service.c */,
+				0164A3641DB1412C00DFB91D /* sha-1.c */,
+				0164A3661DB1412C00DFB91D /* ssl-client.c */,
+				0164A3671DB1412C00DFB91D /* ssl-http2.c */,
+				0164A3681DB1412C00DFB91D /* ssl-server.c */,
+				0164A3691DB1412C00DFB91D /* ssl.c */,
+				010011741DAAB1ED00C9F778 /* lws_config_private.h */,
+				010011751DAAB1ED00C9F778 /* lws_config.h */,
+			);
+			path = libwebsockets;
+			sourceTree = "<group>";
+		};
+		019298A51DAAA1040039CEC5 = {
+			isa = PBXGroup;
+			children = (
+				010011B21DAAB20A00C9F778 /* libwebsockets */,
+				019298B11DAAA1040039CEC5 /* JSCameraKit */,
+				019298BC1DAAA1040039CEC5 /* JSCameraKitTests */,
+				01B578831DAD5D3F004AB5E5 /* JSCameraKit-macOS */,
+				01FA99DF1DAFF2E40027AE23 /* JSCameraKit Server */,
+				019298B01DAAA1040039CEC5 /* Products */,
+				9691DD4CFB0E99F825938BA5 /* Pods */,
+				F5539FABA246605D472C0F29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		019298B01DAAA1040039CEC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019298AF1DAAA1040039CEC5 /* JSCameraKit.framework */,
+				019298B81DAAA1040039CEC5 /* JSCameraKitTests.xctest */,
+				01B578821DAD5D3F004AB5E5 /* JSCameraKit_macOS.framework */,
+				01FA99DE1DAFF2E40027AE23 /* JSCameraKit Server */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		019298B11DAAA1040039CEC5 /* JSCameraKit */ = {
+			isa = PBXGroup;
+			children = (
+				0192992B1DAAA1F00039CEC5 /* AVRecorder.swift */,
+				0192995C1DAAA1F00039CEC5 /* WebSocketCamera.swift */,
+				0190128B1DBD6FCE00D5E106 /* WebSocketController.swift */,
+				01C588761DBB973F0058CCF8 /* ConstraintsManager.swift */,
+				01C588781DBBC3640058CCF8 /* getPixelFormat.swift */,
+				0192995A1DAAA1F00039CEC5 /* WebSockerServer.h */,
+				0192995B1DAAA1F00039CEC5 /* WebSockerServer.m */,
+				0115B6181DAC168900AAB682 /* CDVJSCameraKit.h */,
+				0115B6191DAC168900AAB682 /* CDVJSCameraKit.m */,
+				019298B21DAAA1040039CEC5 /* JSCameraKit.h */,
+				019298B31DAAA1040039CEC5 /* Info.plist */,
+			);
+			path = JSCameraKit;
+			sourceTree = "<group>";
+		};
+		019298BC1DAAA1040039CEC5 /* JSCameraKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				019298BD1DAAA1040039CEC5 /* JSCameraKitTests.m */,
+				019298BF1DAAA1040039CEC5 /* Info.plist */,
+			);
+			path = JSCameraKitTests;
+			sourceTree = "<group>";
+		};
+		01B578831DAD5D3F004AB5E5 /* JSCameraKit-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				01B578841DAD5D3F004AB5E5 /* JSCameraKit-macOS.h */,
+				01B578851DAD5D3F004AB5E5 /* Info.plist */,
+			);
+			path = "JSCameraKit-macOS";
+			sourceTree = "<group>";
+		};
+		01FA99DF1DAFF2E40027AE23 /* JSCameraKit Server */ = {
+			isa = PBXGroup;
+			children = (
+				01FA99E01DAFF2E40027AE23 /* main.swift */,
+			);
+			path = "JSCameraKit Server";
+			sourceTree = "<group>";
+		};
+		9691DD4CFB0E99F825938BA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43E60AE6ED808B3332A122C7 /* Pods-JSCameraKit.debug.xcconfig */,
+				939EE31676459F2969E42274 /* Pods-JSCameraKit.release.xcconfig */,
+				721EDFB53CF0ACFFC55DD6C8 /* Pods-JSCameraKit-macOS.debug.xcconfig */,
+				26CDE26D2DCBD7A3801D0845 /* Pods-JSCameraKit-macOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5539FABA246605D472C0F29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01FA99D81DAFF2740027AE23 /* libz.tbd */,
+				01FA99D61DAFF1550027AE23 /* libz.tbd */,
+				01670D201DAFECC600BFFA76 /* Foundation.framework */,
+				013019A11DAD8DBC00E2C804 /* AVFoundation.framework */,
+				010A54CE1DABB5C1005802C7 /* AVFoundation.framework */,
+				BA7E9FC286D7320E999902C4 /* Pods_JSCameraKit.framework */,
+				55ACD0640CD3F7F4B3965999 /* Pods_JSCameraKit_macOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		019298AC1DAAA1040039CEC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164A38A1DB1412C00DFB91D /* huftable.h in Headers */,
+				0164A3941DB1412C00DFB91D /* lextable.h in Headers */,
+				0164A37A1DB1412C00DFB91D /* extension-permessage-deflate.h in Headers */,
+				019299E71DAAAF540039CEC5 /* WebSockerServer.h in Headers */,
+				0164A3A61DB1412C00DFB91D /* private-libwebsockets.h in Headers */,
+				0164A39C1DB1412C00DFB91D /* libwebsockets.h in Headers */,
+				0164A3901DB1412C00DFB91D /* lejp.h in Headers */,
+				019299E81DAAAFDE0039CEC5 /* JSCameraKit.h in Headers */,
+				0164A3801DB1412C00DFB91D /* getifaddrs.h in Headers */,
+				0164A3921DB1412C00DFB91D /* lextable-strings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B5787F1DAD5D3F004AB5E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0164A38B1DB1412C00DFB91D /* huftable.h in Headers */,
+				0164A3951DB1412C00DFB91D /* lextable.h in Headers */,
+				0164A37B1DB1412C00DFB91D /* extension-permessage-deflate.h in Headers */,
+				01B578861DAD5D3F004AB5E5 /* JSCameraKit-macOS.h in Headers */,
+				0164A3A71DB1412C00DFB91D /* private-libwebsockets.h in Headers */,
+				0164A39D1DB1412C00DFB91D /* libwebsockets.h in Headers */,
+				0164A3911DB1412C00DFB91D /* lejp.h in Headers */,
+				01B578B31DAD604B004AB5E5 /* WebSockerServer.h in Headers */,
+				0164A3811DB1412C00DFB91D /* getifaddrs.h in Headers */,
+				0164A3931DB1412C00DFB91D /* lextable-strings.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		019298AE1DAAA1040039CEC5 /* JSCameraKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019298C31DAAA1040039CEC5 /* Build configuration list for PBXNativeTarget "JSCameraKit" */;
+			buildPhases = (
+				019298AA1DAAA1040039CEC5 /* Sources */,
+				019298AB1DAAA1040039CEC5 /* Frameworks */,
+				019298AC1DAAA1040039CEC5 /* Headers */,
+				019298AD1DAAA1040039CEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSCameraKit;
+			productName = JSCameraKit;
+			productReference = 019298AF1DAAA1040039CEC5 /* JSCameraKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		019298B71DAAA1040039CEC5 /* JSCameraKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019298C61DAAA1040039CEC5 /* Build configuration list for PBXNativeTarget "JSCameraKitTests" */;
+			buildPhases = (
+				019298B41DAAA1040039CEC5 /* Sources */,
+				019298B51DAAA1040039CEC5 /* Frameworks */,
+				019298B61DAAA1040039CEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019298BB1DAAA1040039CEC5 /* PBXTargetDependency */,
+			);
+			name = JSCameraKitTests;
+			productName = JSCameraKitTests;
+			productReference = 019298B81DAAA1040039CEC5 /* JSCameraKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01B578811DAD5D3F004AB5E5 /* JSCameraKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B578871DAD5D3F004AB5E5 /* Build configuration list for PBXNativeTarget "JSCameraKit-macOS" */;
+			buildPhases = (
+				01B5787D1DAD5D3F004AB5E5 /* Sources */,
+				01B5787E1DAD5D3F004AB5E5 /* Frameworks */,
+				01B5787F1DAD5D3F004AB5E5 /* Headers */,
+				01B578801DAD5D3F004AB5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSCameraKit-macOS";
+			productName = "JSCameraKit-macOS";
+			productReference = 01B578821DAD5D3F004AB5E5 /* JSCameraKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01FA99DD1DAFF2E40027AE23 /* JSCameraKit Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01FA99E21DAFF2E40027AE23 /* Build configuration list for PBXNativeTarget "JSCameraKit Server" */;
+			buildPhases = (
+				01FA99DA1DAFF2E40027AE23 /* Sources */,
+				01FA99DB1DAFF2E40027AE23 /* Frameworks */,
+				01FA99DC1DAFF2E40027AE23 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01FA99E61DAFF2F80027AE23 /* PBXTargetDependency */,
+			);
+			name = "JSCameraKit Server";
+			productName = "JSCameraKit Server";
+			productReference = 01FA99DE1DAFF2E40027AE23 /* JSCameraKit Server */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		019298A61DAAA1040039CEC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Fathy Boundjadj";
+				TargetAttributes = {
+					019298AE1DAAA1040039CEC5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = H48HT88286;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+					019298B71DAAA1040039CEC5 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 97VQLDDAQD;
+						ProvisioningStyle = Automatic;
+					};
+					01B578811DAD5D3F004AB5E5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					01FA99DD1DAFF2E40027AE23 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 019298A91DAAA1040039CEC5 /* Build configuration list for PBXProject "JSCameraKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 019298A51DAAA1040039CEC5;
+			productRefGroup = 019298B01DAAA1040039CEC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				019298AE1DAAA1040039CEC5 /* JSCameraKit */,
+				019298B71DAAA1040039CEC5 /* JSCameraKitTests */,
+				01B578811DAD5D3F004AB5E5 /* JSCameraKit-macOS */,
+				01FA99DD1DAFF2E40027AE23 /* JSCameraKit Server */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		019298AD1DAAA1040039CEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019298B61DAAA1040039CEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B578801DAD5D3F004AB5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		019298AA1DAAA1040039CEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0192995E1DAAA1F00039CEC5 /* AVRecorder.swift in Sources */,
+				01C588771DBB973F0058CCF8 /* ConstraintsManager.swift in Sources */,
+				0192998F1DAAA1F00039CEC5 /* WebSocketCamera.swift in Sources */,
+				01C588791DBBC3640058CCF8 /* getPixelFormat.swift in Sources */,
+				0192998E1DAAA1F00039CEC5 /* WebSockerServer.m in Sources */,
+				0164A3A41DB1412C00DFB91D /* pollfd.c in Sources */,
+				0164A3AC1DB1412C00DFB91D /* service.c in Sources */,
+				0164A39A1DB1412C00DFB91D /* libwebsockets.c in Sources */,
+				0164A37C1DB1412C00DFB91D /* extension.c in Sources */,
+				0164A3741DB1412C00DFB91D /* context.c in Sources */,
+				0164A3721DB1412C00DFB91D /* client.c in Sources */,
+				0164A3AA1DB1412C00DFB91D /* server.c in Sources */,
+				0164A3701DB1412C00DFB91D /* client-parser.c in Sources */,
+				0164A38E1DB1412C00DFB91D /* lejp.c in Sources */,
+				0190128C1DBD6FCE00D5E106 /* WebSocketController.swift in Sources */,
+				0164A39E1DB1412C00DFB91D /* lws-plat-unix.c in Sources */,
+				0164A37E1DB1412C00DFB91D /* getifaddrs.c in Sources */,
+				0164A3821DB1412C00DFB91D /* handshake.c in Sources */,
+				0164A36C1DB1412C00DFB91D /* base64-decode.c in Sources */,
+				0164A3AE1DB1412C00DFB91D /* sha-1.c in Sources */,
+				0164A36E1DB1412C00DFB91D /* client-handshake.c in Sources */,
+				0164A3781DB1412C00DFB91D /* extension-permessage-deflate.c in Sources */,
+				0164A3A01DB1412C00DFB91D /* output.c in Sources */,
+				0164A3A21DB1412C00DFB91D /* parsers.c in Sources */,
+				0164A3A81DB1412C00DFB91D /* server-handshake.c in Sources */,
+				0164A3881DB1412C00DFB91D /* http2.c in Sources */,
+				0164A3841DB1412C00DFB91D /* header.c in Sources */,
+				0164A36A1DB1412C00DFB91D /* alloc.c in Sources */,
+				0164A3861DB1412C00DFB91D /* hpack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		019298B41DAAA1040039CEC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019298BE1DAAA1040039CEC5 /* JSCameraKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B5787D1DAD5D3F004AB5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B578AF1DAD5D6E004AB5E5 /* AVRecorder.swift in Sources */,
+				01B578B01DAD5D6E004AB5E5 /* WebSocketCamera.swift in Sources */,
+				01C5887A1DBBC5340058CCF8 /* getPixelFormat.swift in Sources */,
+				01C5887B1DBBC5490058CCF8 /* ConstraintsManager.swift in Sources */,
+				0164A3711DB1412C00DFB91D /* client-parser.c in Sources */,
+				0164A38F1DB1412C00DFB91D /* lejp.c in Sources */,
+				0164A39F1DB1412C00DFB91D /* lws-plat-unix.c in Sources */,
+				01B578B11DAD5D6E004AB5E5 /* WebSockerServer.m in Sources */,
+				0164A37F1DB1412C00DFB91D /* getifaddrs.c in Sources */,
+				0164A3831DB1412C00DFB91D /* handshake.c in Sources */,
+				0164A36D1DB1412C00DFB91D /* base64-decode.c in Sources */,
+				0164A3AF1DB1412C00DFB91D /* sha-1.c in Sources */,
+				0164A36F1DB1412C00DFB91D /* client-handshake.c in Sources */,
+				0164A3BA1DB141F400DFB91D /* server.c in Sources */,
+				0190128D1DBD828E00D5E106 /* WebSocketController.swift in Sources */,
+				0164A3A51DB1412C00DFB91D /* pollfd.c in Sources */,
+				0164A3AD1DB1412C00DFB91D /* service.c in Sources */,
+				0164A39B1DB1412C00DFB91D /* libwebsockets.c in Sources */,
+				0164A37D1DB1412C00DFB91D /* extension.c in Sources */,
+				0164A3751DB1412C00DFB91D /* context.c in Sources */,
+				0164A3731DB1412C00DFB91D /* client.c in Sources */,
+				0164A3791DB1412C00DFB91D /* extension-permessage-deflate.c in Sources */,
+				0164A3A31DB1412C00DFB91D /* parsers.c in Sources */,
+				0164A3A91DB1412C00DFB91D /* server-handshake.c in Sources */,
+				0164A3891DB1412C00DFB91D /* http2.c in Sources */,
+				0164A3851DB1412C00DFB91D /* header.c in Sources */,
+				0164A36B1DB1412C00DFB91D /* alloc.c in Sources */,
+				0164A3871DB1412C00DFB91D /* hpack.c in Sources */,
+				0164A3A11DB1412C00DFB91D /* output.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01FA99DA1DAFF2E40027AE23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FA99E11DAFF2E40027AE23 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		019298BB1DAAA1040039CEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 019298AE1DAAA1040039CEC5 /* JSCameraKit */;
+			targetProxy = 019298BA1DAAA1040039CEC5 /* PBXContainerItemProxy */;
+		};
+		01FA99E61DAFF2F80027AE23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B578811DAD5D3F004AB5E5 /* JSCameraKit-macOS */;
+			targetProxy = 01FA99E51DAFF2F80027AE23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		019298C11DAAA1040039CEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		019298C21DAAA1040039CEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		019298C41DAAA1040039CEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E60AE6ED808B3332A122C7 /* Pods-JSCameraKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fathy.boundjadj@ubleam.com (8596EL9XMH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H48HT88286;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/JSCameraKit/libwebsockets\"";
+				INFOPLIST_FILE = JSCameraKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/openssl/lib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = fathyb.JSCameraKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		019298C51DAAA1040039CEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939EE31676459F2969E42274 /* Pods-JSCameraKit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fathy.boundjadj@ubleam.com (8596EL9XMH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = H48HT88286;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/JSCameraKit/libwebsockets\"";
+				INFOPLIST_FILE = JSCameraKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/opt/openssl/lib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = fathyb.JSCameraKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		019298C71DAAA1040039CEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 97VQLDDAQD;
+				INFOPLIST_FILE = JSCameraKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fathyb.JSCameraKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		019298C81DAAA1040039CEC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 97VQLDDAQD;
+				INFOPLIST_FILE = JSCameraKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fathyb.JSCameraKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01B578881DAD5D3F004AB5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721EDFB53CF0ACFFC55DD6C8 /* Pods-JSCameraKit-macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "JSCameraKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LLVM_LTO = YES_THIN;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "fathyb.JSCameraKit-macOS";
+				PRODUCT_NAME = JSCameraKit_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = JSCameraKit/JSCameraKit.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01B578891DAD5D3F004AB5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CDE26D2DCBD7A3801D0845 /* Pods-JSCameraKit-macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_VERSION = A;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "JSCameraKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LLVM_LTO = YES_THIN;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "fathyb.JSCameraKit-macOS";
+				PRODUCT_NAME = JSCameraKit_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = JSCameraKit/JSCameraKit.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		01FA99E31DAFF2E40027AE23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01FA99E41DAFF2E40027AE23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		019298A91DAAA1040039CEC5 /* Build configuration list for PBXProject "JSCameraKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019298C11DAAA1040039CEC5 /* Debug */,
+				019298C21DAAA1040039CEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019298C31DAAA1040039CEC5 /* Build configuration list for PBXNativeTarget "JSCameraKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019298C41DAAA1040039CEC5 /* Debug */,
+				019298C51DAAA1040039CEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019298C61DAAA1040039CEC5 /* Build configuration list for PBXNativeTarget "JSCameraKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019298C71DAAA1040039CEC5 /* Debug */,
+				019298C81DAAA1040039CEC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B578871DAD5D3F004AB5E5 /* Build configuration list for PBXNativeTarget "JSCameraKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B578881DAD5D3F004AB5E5 /* Debug */,
+				01B578891DAD5D3F004AB5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01FA99E21DAFF2E40027AE23 /* Build configuration list for PBXNativeTarget "JSCameraKit Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FA99E31DAFF2E40027AE23 /* Debug */,
+				01FA99E41DAFF2E40027AE23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 019298A61DAAA1040039CEC5 /* Project object */;
+}
