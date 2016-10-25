@@ -1,0 +1,40 @@
+{
+  "name": "jscamerakit",
+  "version": "1.0.0",
+  "description": "JS Camera API for iOS and macOS",
+  "main": "build/es5/main.js",
+  "jsnext:main": "build/es6/main.js",
+  "types": "build/dts/main.d.ts",
+  "scripts": {
+    "build": "gulp build",
+    "clean": "rm -rf build",
+    "dist-clean": "npm run clean && rm -rf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fathy Boundjadj <fathy.boundjadj@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-typescript": "^3.0.2",
+    "merge2": "^1.0.2",
+    "typescript": "next"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fathyb/JSCameraKit.git"
+  },
+  "keywords": [
+    "ios",
+    "getUserMedia",
+    "macos",
+    "wkwebview",
+    "avfoundation"
+  ],
+  "bugs": {
+    "url": "https://github.com/fathyb/JSCameraKit/issues"
+  },
+  "homepage": "https://github.com/fathyb/JSCameraKit#readme"
+}
