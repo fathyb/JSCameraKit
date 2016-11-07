@@ -4,7 +4,7 @@ Efficient and fast getUserMedia on iOS and macOS!  🎉🎉🎉
 ## Demo
 *the framerate is due to the GIF, it's smooth enough don't worry 😉*
 
-[Cordova/Ionic 2 sample app screencast](http://g.recordit.co/jZDTJzciWq.gif) (too big for Github Camo)
+![Cordova/Ionic 2 sample app screencast](./.assets/demo.gif)
 
 ## How it works?
 
